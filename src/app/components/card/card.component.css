@@ -1,0 +1,26 @@
+.card{
+    border-radius: 15px;
+    max-width: 20%;
+    /* background-color: red; */
+    padding-bottom: 20px;
+    border: 0.5px solid black;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.header{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.parrafo{
+    text-align: start;
+    color:gray;
+}
+
+h2{
+    border-bottom: 1px solid grey;
+}
