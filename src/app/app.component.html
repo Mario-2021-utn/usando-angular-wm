@@ -1,15 +1,4 @@
-<app-title
-    [title]="title"
-    [subtitle]="subtitle"
-></app-title>
-<div class="card-wrapper">
-    <app-card
-        *ngFor="let card of cards"
-        [imagen]="card.imagen"
-        [categoria]= "card.categoria"
-        [titulo]= "card.titulo"
-        [precio]= "card.precio"
-    ></app-card>
-</div>
-
-Hola mundo, simplifiqué este archivo :)
+<!-- Acá se muestran los contenidos de las paginas marcadas en el archivo de routing -->
+CABECERA (logo, menú)
+<router-outlet></router-outlet>
+FOOTER
